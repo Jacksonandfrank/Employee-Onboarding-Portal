@@ -1,5 +1,6 @@
 # Full-Stack Developer @ Jackson & Frank Assessment: Employee Onboarding Portal
 Project Overview:
+
 This assessment focuses on developing a simplified Employee Onboarding Portal to streamline the onboarding process for HR managers and new hires. The portal should provide basic employee management functionalities and allow HR to track the progress of onboarding tasks. 
 The project has been scoped down to focus on core features only, which should take approximately 5-7 hours to complete.
 
@@ -14,6 +15,7 @@ Employee Management (CRUD Operations):
     - Read/View a list of all employees.
     - Update existing employee information.
     - Delete employee profiles if required.
+  
 - Employee profiles should include the following fields:
     - Name
     - Email
