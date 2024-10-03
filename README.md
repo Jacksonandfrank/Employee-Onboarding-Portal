@@ -1,20 +1,25 @@
 # Full-Stack Developer @ Jackson & Frank Assessment: Employee Onboarding Portal
 Project Overview:
-- The Employee Onboarding Portal is designed to streamline and simplify the employee onboarding process for HR managers and new hires.
-- The portal allows HR managers to add new employees, assign onboarding tasks, and track completion statuses.
-- New hires can view their onboarding progress, complete assigned tasks, and upload necessary documents.
-- The purpose is to enhance the user experience for HR teams and new employees by providing a structured and seamless onboarding experience.
+This assessment focuses on developing a simplified Employee Onboarding Portal to streamline the onboarding process for HR managers and new hires. The portal should provide basic employee management functionalities and allow HR to track the progress of onboarding tasks. 
+The project has been scoped down to focus on core features only, which should take approximately 5-7 hours to complete.
 
 # Core Requirements (Must-Have Features):
 User Registration & Login:
-- Implement basic user registration and login functionality.
-- Support Two-Factor Authentication (2FA) using a verification code sent to the user's email.
-- Include Social Login options using Google or LinkedIn.
+- Implement a simple user registration and login system using username and password.
+- No need for 2FA or Social Login.
   
-Employee Management
-- CRUD Operations (Create, Read, Update, and Delete) for employee profiles.
-- Employee details should include: name, email, department, role, and onboarding status.
-- HR Managers should be able to view, add, edit, and delete employee profiles.
+Employee Management (CRUD Operations):
+- HR Managers should be able to:
+    - Create new employee profiles.
+    - Read/View a list of all employees.
+    - Update existing employee information.
+    - Delete employee profiles if required.
+- Employee profiles should include the following fields:
+    - Name
+    - Email
+    - Department
+    - Role
+    - Onboarding Status (e.g., In Progress, Completed).
 
 Onboarding Task Tracker
 - Implement a visual task tracker showing completed, pending, and upcoming tasks.
